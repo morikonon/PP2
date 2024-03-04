@@ -1,0 +1,5 @@
+f = open("text.txt" , 'a' , encoding="utf-8")
+f.write("my name is Mukha , i am 17 , i am from taraz , my best friend is Emir ")
+f.close()
+f = open("text.txt" , 'r')
+print(f.read())
